@@ -1,40 +1,43 @@
 .example-spacer {
-    flex: 1 1 auto;
-  }
-.anch{
+  flex: 1 1 auto;
+}
+.anch {
   display: flex;
   transition: 0.5s all ease-in-out;
   color: beige;
   padding: 8px;
   cursor: pointer;
 }
+.anch1 {
+  transform: scale(1.25);
+  z-index: 999;
+}
 
-.anch:hover{
+.anch:hover {
   transform: scale(1.15);
   color: #ff0057;
 }
 
-@media (max-width:992px){
-  .anch{
+@media (max-width: 992px) {
+  .anch {
     color: #ff0057;
     padding: 8px;
   }
-  .heading span{
+  .heading span {
     display: none;
-    
   }
 }
-.heading{
+.heading {
   cursor: pointer;
   margin-bottom: 0px;
   display: flex;
-  a{
+  a {
     padding: 2px;
     display: flex;
   }
   transition: 0.5s all ease-in-out;
 }
 
-.heading:hover{
+.heading:hover {
   text-decoration: underline;
 }

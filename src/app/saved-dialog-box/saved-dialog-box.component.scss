@@ -1,19 +1,24 @@
-.container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    background-image: linear-gradient(
-        to left,
-        #03001e,
-        #7303c0,
-        #ec38bc,
-        #fdeff9
-      );
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  // background-image: linear-gradient(
+  //     to left,
+  //     #03001e,
+  //     #7303c0,
+  //     #ec38bc,
+  //     #fdeff9
+  //   );
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(216, 241, 230, 0.46) 0.1%,
+    rgba(233, 226, 226, 0.28) 90.1%
+  );
 }
 
-.head{
+.head {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -22,13 +27,13 @@
   padding: 12px;
 }
 
-.head h1{
+.head h1 {
   margin-bottom: 0;
 }
-.head button{
+.head button {
   color: #ff0057;
 }
-.para{
+.para {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -36,7 +41,7 @@
   border: 2px dotted grey;
 }
 
-.btn-close{
+.btn-close {
   float: right;
   width: 100%;
   display: flex;
